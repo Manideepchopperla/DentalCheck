@@ -22,9 +22,7 @@ const io = new Server(httpServer, {
   }
 });
 
-if (process.env.NODE_ENV !== "production") {
-  dotenv.config();
-}
+dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -71,7 +69,7 @@ app.use((err, req, res, next) => {
   res.status(500).json({
     success: false,
     message: 'An error occurred',
-    error: process.env.NODE_ENV === 'development' ? err.message : 'Server error'
+    error: err.message
   });
 });
 
