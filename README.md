@@ -57,7 +57,7 @@ A simple full-stack web application simulating a basic dental checkup system usi
     2. Serve the frontend : 
     ```bash
     cd ../Server
-    npn run dev
+    npm run dev
 
 
 4. Open your browser and navigate to `http://localhost:5000` to view the app.
