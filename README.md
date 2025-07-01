@@ -1,4 +1,4 @@
-# 🦷 Dental Checkup System (MERN Stack) [Live Link](https://dentalcheck.onrender.com/)
+# 🦷 Dental Checkup System (MERN Stack) 
 
 A simple full-stack web application simulating a basic dental checkup system using the MERN stack (MongoDB, Express.js, React.js, Node.js). This app allows patients to apply for checkups and dentists to upload checkup results. It includes PDF export functionality and user roles.
 
@@ -17,6 +17,10 @@ A simple full-stack web application simulating a basic dental checkup system usi
 - **Upload checkup images**
 - **Add descriptions/notes to each image**
 - **Save checkup details for patient viewing**
+
+## Demo Video
+
+https://drive.google.com/file/d/1NP_oO6lt7i0zvIiMpe1AeAFAlOHNtfBE/view?usp=sharing
 
 ## ⚙️ Tech Stack
 
